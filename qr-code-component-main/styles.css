@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: lightgray;
+}
+
+.qr-design{
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+.images img{
+    display: flex;
+    margin-left: 35vw;
+    margin-top: 10vh;
+    border-radius:5%;
+}
+
+
+.text-of-qr{
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+
+    font-size: 15px;
+}
+
+.attribution{
+    margin-top: 20vh;
+    margin-left: 75vw;
+}
