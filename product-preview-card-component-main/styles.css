@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+
+    text-align: center;
+
+}
+
+.textContent{
+    background-color: white;
+    max-width: 16vw;
+    margin:25vh 0 0 0;
+    border-radius: 0 10px 10px 0;
+}
+
+img{
+    margin:25vh 0 0 15vw;
+    max-width: 16vw;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.textContent{
+    text-align: start;
+    padding: 1.8rem 0 0 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+
+}
+
+.text1{
+    font-size:8px;
+    letter-spacing: 3px;
+    color:rgba(169, 165, 176,1);
+
+}
+
+.main-text{
+    font-family: 'Fraunces', serif;
+    font-weight:700;
+    font-size:2.3rem;
+    padding: 0.3rem 2rem 0 0;
+}
+
+.text2{
+    padding:1rem 5rem 0 0 ;
+    font-size:12px;
+    color:hsl(212, 21%, 14%);
+}
+
+.main-price{
+    font-family: 'Fraunces', serif;
+    font-weight:700;
+    font-size: 2rem;
+    margin:0.3rem 0 1.2rem 1rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.fake-price{
+    font-size:0.5rem;
+    padding: 0.5rem 0 1rem 1.3rem;
+    color:hsl(212, 21%, 14%);
+    text-decoration-line: line-through;
+}
+
+.btn-success{
+
+    width: 13vw;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
