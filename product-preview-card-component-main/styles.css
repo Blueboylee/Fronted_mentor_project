@@ -5,8 +5,9 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
-
+    align-items: center;
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -15,21 +16,16 @@ body{
     max-width: 16vw;
     margin:25vh 0 0 0;
     border-radius: 0 10px 10px 0;
+    text-align: start;
+    padding: 1.8rem 0 0 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 img{
     margin:25vh 0 0 15vw;
     max-width: 16vw;
     border-radius: 10px 0 0 10px;
-
-}
-
-.textContent{
-    text-align: start;
-    padding: 1.8rem 0 0 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-
 
 }
 
@@ -44,11 +40,11 @@ img{
     font-family: 'Fraunces', serif;
     font-weight:700;
     font-size:2.3rem;
-    padding: 0.3rem 2rem 0 0;
+    padding: 0rem 2rem 0 0;
 }
 
 .text2{
-    padding:1rem 3rem 0 0 ;
+    padding:0.5rem 2rem 0 0 ;
     font-size:14px;
     color:hsl(212, 21%, 14%);
 }
@@ -73,4 +69,24 @@ img{
     width: 13vw;
     background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
+}
+
+
+
+
+
+@media (max-width: 1440px){
+    img{
+        margin:25vh 0 0 20vw;
+        max-width: 20vw;
+    }
+    
+    .textContent{
+        max-width: 20vw;
+        margin:25vh 0 0 0;
+        border-radius: 0 10px 10px 0;
+        padding: 1.6rem 0 0 2rem;
+    }
+
+
 }
