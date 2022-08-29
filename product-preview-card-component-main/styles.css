@@ -19,7 +19,7 @@ body{
     text-align: start;
     padding: 1.8rem 0 0 2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 img{
@@ -47,6 +47,7 @@ img{
     padding:0.5rem 2rem 0 0 ;
     font-size:14px;
     color:hsl(212, 21%, 14%);
+
 }
 
 .main-price{
