@@ -28,7 +28,7 @@
     height:80vh;
     color:pink;
     margin: 1vw;
-    transition: all 100 ease-in;
+    transition: all 700ms ease-in;
     position: relative;
     cursor: pointer;
   }
@@ -39,7 +39,6 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-
 }
 
 .panel.active{
