@@ -57,3 +57,32 @@ body{
     border-radius: 10px;
     border: 2px rgb(205, 221, 235) solid;
 }
+
+.circle.active{
+    border-color:aqua;
+}
+
+
+.btn{
+    color: white;
+    background-color: rgb(226, 180, 188);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    transition: 0.07s ;
+}
+
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+
+.btn:disabled{
+   background-color: lightgrey;
+   cursor: not-allowed;
+}
+
