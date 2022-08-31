@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 214, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.container{
+    position:relative;
+}
+
+.container .input{
+    height: 3rem;
+    width:3rem;
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.input:focus, .btn:focus{
+    outline: none;
+}
+
+.container.active .input{
+    width: 15rem;
+}
+
+.container.active .btn{
+    transform: translateX(200px);
+}
