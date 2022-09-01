@@ -12,25 +12,22 @@ body{
 }
 
 .bg{
-    background: url('https://s3.bmp.ovh/imgs/2022/09/01/95567fbae1b7f3a1.jpg') 
+    background: url('https://s3.bmp.ovh/imgs/2022/09/01/26eafd0a48cd7b8f.jpg')
     no-repeat center center/cover;
-    position:absolute;
-    top: -30px;
-    left:-30px;
+    width: calc(100vw + 50px);
+    height: calc(100vh + 50px);
+    position: absolute;
     z-index: -1;
+    top: -30px;
+    left: -20px;
     filter: blur(0px);
-    width: calc(100vw + 60px);
-    height: calc(100vh + 60px);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .text{
-    font-size:5rem;
+    font-size: 5rem;
     color: pink;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 1;
 }
