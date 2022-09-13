@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+    background-color: #ffe9f1;
+}
+
+.container{
+    width: 30rem;
+    text-align: center;
+}
+h3{
+    color: #572872;
+    user-select: none;
+}
+
+textarea{
+    width: 100%;
+    height: 7rem;
+    border-radius: 10px;
+    box-shadow: 3px 1px 1px #ffafcc;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin: 0 0 1.3rem 0;
+}
+
+.tag{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffafcc;
+    margin: 0 5px;
+    user-select: none;
+    color:#572872 ;
+}
+
+.tag.active{
+    background-color: #b07ccf;
+    color: white;
+    font-weight: bold;
+}
