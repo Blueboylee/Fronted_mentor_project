@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+    background-color: #233c5f;
+}
+
+.container{
+    color: white;
+    margin: 1rem;
+    text-align: center;
+}
+
+.number{
+    font-weight: 1000;
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+}
+
+i{
+    margin: 1rem;
+}
+
+@media (max-width: 756px){
+    body{
+        flex-direction: column;
+    }
+}
